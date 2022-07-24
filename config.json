@@ -1,0 +1,137 @@
+{
+    "TOKEN": "OTcwMDA5NTQ4NTYxNzMxNjA0.Ym1tyg.NfLIMciVEnY6QX_2NkVLCl5oNTo",
+    "TICKETS_CATEGORY_ID": 832965952080445500,
+    "TICKET_MESSAGE_CONTENT": "Tu as un problème ? Tu peux créer un ticket en cliquant sur le bouton ci-dessous!",
+    "TICKET_STATUSES": [{
+        "ID": "WAITING",
+        "NAME": "En attente de traitement",
+        "EMOTE": "🟢"
+    }, {
+        "ID": "PROCESSING",
+        "NAME": "Traitement en cours",
+        "EMOTE": "🔵"
+    }, {
+        "ID": "CLOSED",
+        "NAME": "Fermé",
+        "EMOTE": "🔴"
+    }],
+    "TICKET_TYPES": [
+        {
+            "DEFAULT": false,
+            "ID": "SANCTION",
+            "NAME": "Sanctions",
+            "EMOTE": "⚖️",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                "831210318189166613",
+                "832712857279266818",
+		        "984333364125380689"
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+                "831210318189166613",
+                "832712857279266818",
+		        "984333364125380689",
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+                "831210318189166613",
+                "832712857279266818",
+		        "984333364125380689",
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }, {
+            "DEFAULT": false,
+            "ID": "HOST",
+            "NAME": "Host",
+            "EMOTE": "🎫",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                "984333257141272606"
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }, {
+            "DEFAULT": false,
+            "ID": "CANDIDATURES",
+            "NAME": "Candidatures",
+            "EMOTE": "📃",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                "967105279906951248"
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }, {
+            "DEFAULT": false,
+            "ID": "DEV",
+            "NAME": "Dev",
+            "EMOTE": "💻",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                "831170339601907732"
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+		        "831170339601907732",
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+		        "831170339601907732",
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }, {
+            "DEFAULT": false,
+            "ID": "PROJETS",
+            "NAME": "Projets",
+            "EMOTE": "🛠️",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                "915292848339947520"
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+		        "915292848339947520",
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+		        "915292848339947520",
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }, {
+            "DEFAULT": true,
+            "ID": "OTHER",
+            "NAME": "Autre",
+            "EMOTE": "",
+            "DESCRIPTION": "",
+            "ROLES_TO_MENTION":[
+                
+            ],
+            "ROLES_WHO_CAN_ACCESS_OPENED_TICKET":[
+                "832714959669690369",
+                "967105279906951248",
+                "830843523376611379"
+            ],
+            "ROLES_WHO_CAN_ACCESS_CLOSED_TICKET": [
+                "832714959669690369",
+                "967105279906951248",
+                "830843523376611379"
+            ]
+        }
+    ]
+}
